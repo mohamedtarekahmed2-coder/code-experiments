@@ -83,16 +83,16 @@ public:
 	}
 };
 
-int main()
-{
-	Rectangle rec(2, 2, 2);
-	Shape *shape_ptr = &rec;
-	shape_ptr->print();
-	cout << shape_ptr->getArea() << '\n';
+// int main()
+// {
+// 	Rectangle rec(2, 2, 2);
+// 	Shape *shape_ptr = &rec;
+// 	shape_ptr->print();
+// 	cout << shape_ptr->getArea() << '\n';
 
-	Square sq(3, 3);
-	shape_ptr = &sq;
-	shape_ptr->print();
-	cout << shape_ptr->getArea() << '\n';
-	return 0;
-}
+// 	Square sq(3, 3);
+// 	shape_ptr = &sq;
+// 	shape_ptr->print();
+// 	cout << shape_ptr->getArea() << '\n';
+// 	return 0;
+// }
